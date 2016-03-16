@@ -77,7 +77,8 @@ window.onload=function(){
 	var fnBackTop=function(){
 		var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
 		if (scrollTop<=0) {
-			return
+			clearInterval(oUl.timer);
+			return;
 		}
 		document.documentElement.scrollTop-=200;
 	};
