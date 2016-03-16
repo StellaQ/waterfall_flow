@@ -1,0 +1,43 @@
+body,ul,p{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+
+#list{
+	width:1000px; 
+	margin:20px auto  0; 
+}
+#list li{
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #dff2f3;
+}
+#list li div img{
+	/* width: 200px; */
+	/* height: 200px; */
+	vertical-align: top;
+}
+#list li div p{
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	text-align:center;
+	background: #c0f3f9;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#backTop{
+	width: 50px;
+	height: 50px;
+	background: url('img/bg.png') no-repeat #b8e2e3;
+	position: absolute;
+	cursor: pointer;
+}
